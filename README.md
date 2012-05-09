@@ -5,3 +5,4 @@
 ### Included Dotfiles###
 * vim (vim, vimrc)
 * gitconfig
+* zsh (using oh-my-zsh for now)
