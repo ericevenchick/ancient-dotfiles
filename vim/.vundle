@@ -7,7 +7,17 @@ call vundle#rc()
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-"Bundles (plugins)
+"
+" enabled bundles
+"
+" file managment tree
+Bundle 'scrooloose/nerdtree'
+" auto completion
+Bundle 'Shougo/neocomplcache'
+
+"
+" disabled bundles
+"
 "Bundle 'godlygeek/tabular'
 "Bundle 'groenewege/vim-less'
 "Bundle 'kchmck/vim-coffee-script'
@@ -16,7 +26,6 @@ Bundle 'gmarik/vundle'
 "Bundle 'mileszs/ack.vim'
 "Bundle 'phleet/snipmate.vim'
 "Bundle 'rphillips/vim-zoomwin'
-"Bundle 'scrooloose/nerdtree'
 "Bundle 'scrooloose/syntastic'
 "Bundle 'sjl/gundo.vim'
 "Bundle 'tpope/vim-fugitive'
@@ -26,6 +35,5 @@ Bundle 'gmarik/vundle'
 "Bundle 'hail2u/vim-css3-syntax'
 "Bundle 'Lokaltog/vim-powerline'
 "Bundle 'scrooloose/nerdcommenter'
-"Bundle 'Shougo/neocomplcache'
 "Bundle 'python_match.vim'
 "Bundle 'VimOutliner'
